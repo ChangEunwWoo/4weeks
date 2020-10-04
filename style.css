@@ -1,0 +1,104 @@
+.box1 {
+	width: 100px;
+	height:100px;
+	background-color: #FF0000;
+	transition-property: all;
+	transition-duration: 1s;
+	float:left;
+	transform:scale(1, 1);
+	animation: opacityToZero;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+
+.box1:hover {
+	transform:rotate(180deg);
+	transform:scale(0.8, 0.8);
+	animation-play-state: running;
+}
+
+.box2 {
+	width: 100px;
+	height:100px;
+	background-color: #FF5E00;
+	transition-property: all;
+	transition-duration: 1s;
+	float:left;
+	transform:scale(1, 1);
+	animation: opacityToZero;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+
+.box2:hover {
+	transform:rotate(180deg);
+	transform:scale(0.8, 0.8);
+	animation-play-state: running;
+}
+
+.box3 {
+	width: 100px;
+	height:100px;
+	background-color: #FFBB00;
+	transition-property: all;
+	transition-duration: 1s;
+	float:left;
+	transform:scale(1, 1);
+	animation: opacityToZero;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+
+.box3:hover {
+	transform:rotate(180deg);
+	transform:scale(0.8, 0.8);
+	animation-play-state: running;
+}
+
+.box4 {
+	width: 100px;
+	height:100px;
+	background-color: #FFE400;
+	transition-property: all;
+	transition-duration: 1s;
+	float:left;
+	transform:scale(1, 1);
+	animation: opacityToZero;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+
+.box4:hover {
+	transform:rotate(180deg);
+	transform:scale(0.8, 0.8);
+	animation-play-state: running;
+}
+
+.box5 {
+	width: 100px;
+	height:100px;
+	background-color: #ABF200;
+	transition-property: all;
+	transition-duration: 1s;
+	float:left;
+	transform:scale(1, 1);
+	animation: opacityToZero;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+
+.box5:hover {
+	transform:rotate(180deg);
+	transform:scale(0.8, 0.8);
+	animation-play-state: running;
+}
+
+@keyframes opacityToZero {
+	0% {opacity: 1}
+	100% {opacity: 0}
+}
